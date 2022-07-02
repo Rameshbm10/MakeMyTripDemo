@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-02T07:46:28Z" name="Default suite" finished-at="2022-07-02T07:47:07Z" duration-ms="38830">
+    <groups>
+    </groups>
+    <test started-at="2022-07-02T07:46:28Z" name="Default test" finished-at="2022-07-02T07:47:07Z" duration-ms="38830">
+      <class name="TestScripts.ValidateFlightFeature">
+        <test-method is-config="true" signature="applLaunch()[pri:0, instance:TestScripts.ValidateFlightFeature@37e4d7bb]" started-at="2022-07-02T07:46:28Z" name="applLaunch" finished-at="2022-07-02T07:46:44Z" duration-ms="15838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applLaunch -->
+        <test-method signature="flightSearch()[pri:0, instance:TestScripts.ValidateFlightFeature@37e4d7bb]" started-at="2022-07-02T07:46:44Z" name="flightSearch" finished-at="2022-07-02T07:47:06Z" duration-ms="22228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightSearch -->
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:TestScripts.ValidateFlightFeature@37e4d7bb]" started-at="2022-07-02T07:47:06Z" name="closeApp" finished-at="2022-07-02T07:47:07Z" duration-ms="728" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=flightSearch status=SUCCESS method=ValidateFlightFeature.flightSearch()[pri:0, instance:TestScripts.ValidateFlightFeature@37e4d7bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- TestScripts.ValidateFlightFeature -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
